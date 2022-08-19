@@ -1,0 +1,40 @@
+<div class="currency-converter">
+  <h2>Currency Converter</h2>
+  <div class="input-box">
+  <table>
+      <tbody>
+        <tr>
+          <td>Primary Currency</td>
+          <td>
+            <input type="number" name="currency-amount-1" value="" [(ngModel)]="primaryAmount">
+          </td>
+          <td>
+            <select value="{{choosenPrimaryCurrency}}" [(ngModel)]="choosenPrimaryCurrency" name="currency-option-1" className="currency-option">
+              <option hidden>---select---</option>
+              <option *ngFor="let c of currencies">{{c}}</option>
+            </select>
+          </td>
+        </tr>
+        <!--second tr-->
+        <tr>
+          <td>Secondary Currency</td>
+          <td>
+            <input [disabled]="true" type="number" name="currency-amount-2" value="" [(ngModel)]="secondaryAmount">
+          </td>
+          <td>
+            <select [(ngModel)]="choosenSecondaryCurrency" value="" name="currency-option-2" className="currency-option">
+              <option hidden>---select---</option>
+              <option *ngFor="let c of currencies">{{c}}</option>
+            </select>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <button id="convert-button" class="m-t-1" (click)="convert(choosenPrimaryCurrency, choosenSecondaryCurrency)">Convert</button>
+  </div>
+  <app-exchange-rate [choosenSecondaryCurrency]="secondaryConvertCurrency"
+                     [choosenPrimaryCurrency]="primaryConvertCurrency"
+                      [exchangeRate]="secondaryAmount"
+                      ></app-exchange-rate>
+
+</div>

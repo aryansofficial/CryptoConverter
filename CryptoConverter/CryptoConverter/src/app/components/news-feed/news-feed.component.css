@@ -1,0 +1,24 @@
+.news-feed{
+  background-color: rgb(204,204,231);
+  padding: 10px;
+  margin: 10px;
+  box-shadow: 0 3px 10px rgb(0 0 0/ 0.2);
+  max-width: 586px;
+  position: relative;
+}
+a {
+  text-decoration: none;
+  color: #253898;
+  /*#120E43*/
+  transition: color .5s;
+}
+
+p {
+  margin-bottom: 0.7rem;
+}
+
+a:hover {
+  color: #120E43;
+
+}
+

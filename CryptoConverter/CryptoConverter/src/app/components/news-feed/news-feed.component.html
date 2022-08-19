@@ -1,0 +1,8 @@
+<div class="news-feed">
+  <p *ngFor="let news of newsList">
+    <a target="_blank" href="{{news.url}}">
+      {{news.title}} <fa-icon [icon]="arrow"></fa-icon>
+    </a>
+  </p>
+</div>
+<!-- <i class="fa-solid fa-up-right-from-square"></i> -->

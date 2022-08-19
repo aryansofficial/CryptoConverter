@@ -1,0 +1,26 @@
+.currency-converter{
+  background-color: rgb(230, 223, 211);
+  padding: 10px;
+  margin: 5px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  text-align: center;
+  /*width: 800px;*/
+}
+
+
+input, select {
+  border: none;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+button {
+  background-color: rgb(204,204,231);
+  color: #253898;
+  border: 2px solid #253898;
+  padding: 8px;
+  font-size: larger;
+  border-radius: 5px;
+}
+
+
