@@ -7,7 +7,7 @@ CRYPTO NEWS API => https://rapidapi.com/ddeshon/api/crypto-news-live3/
 
 CRYPTO CONVERTER API => https://rapidapi.com/alphavantage/api/alpha-vantage/
 
-![alt text](https://github.com/aryansofficial/CryptoConverter/blob/main/images/Screenshot%20(58).png?raw=true)
+![alt text](https://github.com/aryansofficial/CryptoConverter/blob/main/CryptoConverter/images/Screenshot%20(58).png?raw=true)
 
 # CryptoConverter
 
